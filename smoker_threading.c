@@ -14,7 +14,7 @@ typedef struct smoker_type {
 
 CigaretteMaterial offer1;
 CigaretteMaterial offer2;
-bool is_smooking = true;
+bool is_smooking = false;
 
 pthread_t tid[3];
 pthread_mutex_t lock;
